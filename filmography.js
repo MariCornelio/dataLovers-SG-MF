@@ -330,8 +330,9 @@ document.addEventListener("click", (e) => {
   }
 });
 if (
-  // location.pathname === "//pnxu.github.io/dataLovers-SG-MF/filmography.html"
-  location.href === "https://pnxu.github.io/dataLovers-SG-MF/filmography.html"
+  // location.pathname === "//maricornelio.github.io/dataLovers-SG-MF//filmography.html"
+  location.href ===
+  "https://maricornelio.github.io/dataLovers-SG-MF/filmography.html"
 ) {
   showAbstract(filterTitle(arrayGhibli, localStorage.getItem("titleFilm")));
 
@@ -365,15 +366,16 @@ const carouselItemFooter = document.querySelectorAll(
 );
 const filmsBox = document.querySelectorAll(".films-box a");
 if (
-  location.href === "https://pnxu.github.io/dataLovers-SG-MF/index.html" ||
-  location.href === "https://pnxu.github.io/dataLovers-SG-MF/"
+  location.href ===
+    "https://maricornelio.github.io/dataLovers-SG-MF/index.html" ||
+  location.href === "https://maricornelio.github.io/dataLovers-SG-MF/"
 ) {
   // carousel
   carouselItemFooter[0].addEventListener("click", () => {
     localStorage.setItem("titleFilm", "My Neighbor Totoro");
     if (
       location.href ===
-      "https://pnxu.github.io/dataLovers-SG-MF/filmography.html"
+      "https://maricornelio.github.io/dataLovers-SG-MF/filmography.html"
     ) {
       showAbstract(filterTitle(arrayGhibli, localStorage.getItem("titleFilm")));
     }
@@ -382,7 +384,7 @@ if (
     localStorage.setItem("titleFilm", "Howl's Moving Castle");
     if (
       location.href ===
-      "https://pnxu.github.io/dataLovers-SG-MF/filmography.html"
+      "https://maricornelio.github.io/dataLovers-SG-MF/filmography.html"
     ) {
       showAbstract(filterTitle(arrayGhibli, localStorage.getItem("titleFilm")));
     }
@@ -391,7 +393,7 @@ if (
     localStorage.setItem("titleFilm", "Spirited Away");
     if (
       location.href ===
-      "https://pnxu.github.io/dataLovers-SG-MF/filmography.html"
+      "https://maricornelio.github.io/dataLovers-SG-MF/filmography.html"
     ) {
       showAbstract(filterTitle(arrayGhibli, localStorage.getItem("titleFilm")));
     }
@@ -401,7 +403,7 @@ if (
     localStorage.setItem("titleFilm", "Princess Mononoke");
     if (
       location.href ===
-      "https://pnxu.github.io/dataLovers-SG-MF/filmography.html"
+      "https://maricornelio.github.io/dataLovers-SG-MF/filmography.html"
     ) {
       showAbstract(filterTitle(arrayGhibli, localStorage.getItem("titleFilm")));
     }
@@ -410,7 +412,7 @@ if (
     localStorage.setItem("titleFilm", "The Cat Returns");
     if (
       location.href ===
-      "https://pnxu.github.io/dataLovers-SG-MF/filmography.html"
+      "https://maricornelio.github.io/dataLovers-SG-MF/filmography.html"
     ) {
       showAbstract(filterTitle(arrayGhibli, localStorage.getItem("titleFilm")));
     }
@@ -419,7 +421,7 @@ if (
     localStorage.setItem("titleFilm", "Grave of the Fireflies");
     if (
       location.href ===
-      "https://pnxu.github.io/dataLovers-SG-MF/filmography.html"
+      "https://maricornelio.github.io/dataLovers-SG-MF/filmography.html"
     ) {
       showAbstract(filterTitle(arrayGhibli, localStorage.getItem("titleFilm")));
     }
