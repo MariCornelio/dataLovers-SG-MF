@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- <link rel="icon" href="./assets/ghiblipedia-favicon.png"> -->
+  <title>GhibliPedia</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-container">
+      <div class="header-logo">
+        <img src="./assets/GHIBLIPEDIA_logo.webp" alt="GhibliPedia" />
+      </div>
+      <input type="checkbox" id="header-menu" class="header-input" />
+      <label for="header-menu" class="header-label">
+        <span class="header-label__icon"></span>
+        <span class="header-label__icon"></span>
+        <span class="header-label__icon"></span>
+      </label>
+      <nav class="header-nav">
+        <a href="index.html" class="header-nav_item">HOME</a>
+        <a href="films.html" class="header-nav_item">FILMS</a>
+        <a href="#" class="header-nav_item">ABOUT</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <article class="carousel">
+      <div class="carousel-container">
+        <input type="radio" id="carousel-button-1" name="carousel-slide" hidden />
+        <input type="radio" id="carousel-button-2" name="carousel-slide" hidden />
+        <input type="radio" id="carousel-button-3" name="carousel-slide" hidden />
+        <div class="slides-carousel">
+          <section class="carousel-slide-item">
+            <img src="assets/carousel-totoro.webp" alt="my neighbor totoro" />
+            <div class="carousel-slide-item_footer">
+              <p>My Neighbor Totoro</p>
+              <p>
+                Two sisters move to the country with their father in order to
+                be closer to their hospitalized mother, and discover the
+                surrounding trees are inhabited by Totoros ...
+                <a href="filmography.html">More</a>
+              </p>
+            </div>
+          </section>
+          <section class="carousel-slide-item">
+            <img src="assets/carousel-castillo.webp" alt="Howl's Moving Castle" />
+            <div class="carousel-slide-item_footer">
+              <p>Howl's Moving Castle</p>
+              <p>
+                When Sophie, a shy young woman, is cursed with an old body by
+                a spiteful witch, her only chance of breaking the spell ...
+                <a href="filmography.html">More</a>
+              </p>
+            </div>
+          </section>
+          <section class="carousel-slide-item">
+            <img src="assets/carousel-shijiro.webp" alt="spirited away" />
+            <div class="carousel-slide-item_footer">
+              <p>Spirited Away</p>
+              <p>
+                It is an Oscar winning Japanese animated film about a ten year
+                old girl who wanders away from her parents along a path that
+                leads to a world ruled ... <a href="filmography.html">More</a>
+              </p>
+            </div>
+          </section>
+        </div>
+        <div class="carousel-pagination">
+          <label for="carousel-button-1" class="carousel-pagination-item">
+            <img src="assets/carousel-totoro.webp" alt="my neighbor totoro" />
+          </label>
+          <label for="carousel-button-2" class="carousel-pagination-item">
+            <img src="assets/carousel-castillo.webp" alt="Howl's Moving Castle" />
+          </label>
+          <label for="carousel-button-3" class="carousel-pagination-item">
+            <img src="assets/carousel-shijiro.webp" alt="spirited away" />
+          </label>
+        </div>
+      </div>
+    </article>
+    <article class="films">
+      <section>
+        <div class="films-header-container">
+          <h4 class="films-header">FILMS</h4>
+        </div>
+        <div class="films-container">
+          <div class="films-box">
+            <img src="./assets/films-princess-mononoke.webp" alt="Princess Mononoke" class="films-img" />
+            <a href="filmography.html">
+              <h2 class="films-title">Princess Mononoke</h2>
+            </a>
+          </div>
+          <div class="films-box">
+            <img src="./assets/films-the-cat-returns.webp" alt="The-Cat-Returns" class="films-img" />
+            <a href="filmography.html">
+              <h2 class="films-title">The Cat Returns</h2>
+            </a>
+          </div>
+          <div class="films-box">
+            <img src="./assets/films-grave-of-the-fireflies.webp" alt="Grave of the Fireflies" class="films-img" />
+            <a href="filmography.html">
+              <h2 class="films-title">Grave of the Fireflies</h2>
+            </a>
+          </div>
+        </div>
+        <div class="btn-container">
+          <a href="./films.html" class="films-btn"> All films </a>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer class="footer">
+    <div class="container-footer">
+      <div class="footer-title">
+        <p>Studio Ghibli</p>
+      </div>
+      <div class="social">
+        <a href="#"><img src="./assets/footer-facebook-icon.png" /></a>
+        <a href="#"><img src="./assets/footer-instagram-icon.png" /></a>
+        <a href="#"><img src="./assets/footer-twitter-icon.png" /></a>
+        <a href="#"><img src="./assets/footer-youtube-icon.png" /></a>
+      </div>
+    </div>
+    <div class="copyright">
+      <small>© 2022 <b>Studio Ghibli.</b> Made by Fran &#38 Mari.</small>
+    </div>
+  </footer>
+  <script src="main.js" type="module"></script>
+  <script src="filmography.js" type="module"></script>
+</body>
+
+</html>

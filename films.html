@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="films.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- <link rel="icon" href="./assets/ghiblipedia-favicon.png"> -->
+  <title>GhibliPedia Films</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-container">
+      <div class="header-logo">
+        <img src="./assets/GHIBLIPEDIA_logo.webp" alt="GhibliPedia" />
+      </div>
+      <input type="checkbox" id="header-menu" class="header-input" />
+      <label for="header-menu" class="header-label">
+        <span class="header-label__icon"></span>
+        <span class="header-label__icon"></span>
+        <span class="header-label__icon"></span>
+      </label>
+      <nav class="header-nav_films">
+        <a href="index.html" class="header-nav_item">HOME</a>
+        <a href="films.html" class="header-nav_item">FILMS</a>
+        <a href="#" class="header-nav_item">ABOUT</a>
+      </nav>
+    </div>
+  </header>
+    <main>
+      <article class="background">
+        <div class="background-container">
+          <h1>
+            Browse through Studio Ghibli's films<br />
+            and discover their characters &#38 more details
+          </h1>
+          <div class="background-item">
+            <img src="./assets/background-princess-mononoke.webp" />
+            <p>Princess Mononoke「もののけ姫」</p>
+          </div>
+          <div class="background-item">
+            <img src="./assets/background-grave-of-the-fireflies.webp" />
+            <p>Grave of the Fireflies 「火垂るの墓」</p>
+          </div>
+          <div class="background-item">
+            <img src="./assets/background-kikis-delivery-services.webp" />
+            <p>Kiki's Delivery Services 「魔女の宅急便」</p>
+          </div>
+          <div class="background-item">
+            <img src="./assets/background-spirited-away.webp" />
+            <p>Spirited Away 「千と千尋の神隠し」</p>
+          </div>
+          <div class="background-item">
+            <img src="./assets/background-pompoko.webp" />
+            <p>Pompoko 「平成狸合戦ぽんぽこ」</p>
+          </div>
+        </div>
+        </article>
+              <section id="browser">
+                <div class="navbar-container">
+                 <div class="nav-title">
+            <p>browse by</p>
+          </div>
+        <div class="navbar-menu">
+          <div class="navbar-dropdown">
+            <button class="navbar-dropdown-btn">
+              Film Name
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" fill="currentColor"
+                class="bi bi-chevron-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+              </svg>
+            </button>
+            <div id="names-filter" class="navbar-dropdown-content">
+              <a href="#">A-Z</a>
+              <a href="#">Z-A</a>
+            </div>
+          </div>
+          <div class="navbar-dropdown">
+            <button class="navbar-dropdown-btn">
+              Year
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" fill="currentColor"
+                class="bi bi-chevron-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+              </svg>
+            </button>
+            <div id="decades-filter" class="navbar-dropdown-content"></div>
+          </div>
+          <div class="navbar-dropdown">
+            <button class="navbar-dropdown-btn">
+              Rating
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" fill="currentColor"
+                class="bi bi-chevron-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+              </svg>
+            </button>
+            <div id="rating-filter" class="navbar-dropdown-content">
+              <a href="#">Highest First</a>
+              <a href="#">Lowest First</a>
+            </div>
+          </div>
+          <div class="navbar-dropdown">
+            <button class="navbar-dropdown-btn">
+              Directors
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" fill="currentColor"
+                class="bi bi-chevron-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+              </svg>
+            </button>
+            <div id="directors-filter" class="navbar-dropdown-content"></div>
+          </div>
+        </div>
+        <div class="search-box">
+          <p>FIND A FILM</p>
+          <input type="text" id="search-input" class="search-input" />
+        </div>
+      </div>
+    </section>
+    <article class="films-grid">
+      <h4>STUDIO GHIBLI FILMS</h4>
+      <div class="films-grid__results-films">
+        <p></p>
+      </div>
+      <div class="films-grid__films-container">
+        <!-- diseño de caja -->
+        <!-- <section class="films-grid__section">
+          <div class="films-grid__section-card">
+            <div class="films-grid__front-card">
+              <img src="https://static.wikia.nocookie.net/studio-ghibli/images/c/c1/Castle_in_the_Sky.jpg"
+                alt="Grave of the Fireflies">
+              <p>2000</p>
+            </div>
+            <div class="films-grid__back-card">
+              <p>DESCRIPTION:</p>
+              <p>
+                The orphan Sheeta inherited a mysterious crystal that links her to the mythical sky-kingdom of Laputa.
+                With the help of
+                resourceful Pazu and a rollicking band of sky pirates, she makes her way to the ruins of the once-great
+                civilization.
+                Sheeta and Pazu must outwit the evil Muska, who plans to use Laputa's science to make himself ruler of
+                the world.
+              </p>
+            </div>
+          </div>
+          <div class="films-grid__section-title">
+            <p>&#9660 FILMOGRAPHY &#9660</p>
+            <a href="#">Castle in the Sky</a>
+          </div>
+        </section> -->
+        <!-- fin de diseño de caja -->
+      </div>
+    </article>
+  </main>
+  <footer class="footer">
+    <div class="container-footer">
+      <div class="footer-title">
+        <p>Studio Ghibli</p>
+      </div>
+      <div class="social">
+        <a href="#"><img src="./assets/footer-facebook-icon.png" /></a>
+        <a href="#"><img src="./assets/footer-instagram-icon.png" /></a>
+        <a href="#"><img src="./assets/footer-twitter-icon.png" /></a>
+        <a href="#"><img src="./assets/footer-youtube-icon.png" /></a>
+      </div>
+    </div>
+    <div class="copyright">
+      <small>© 2022 <b>Studio Ghibli.</b> Made by Fran &#38 Mari.</small>
+    </div>
+  </footer>
+  <script src="main.js" type="module"></script>
+  <script src="filmography.js" type="module"></script>
+</body>
+
+</html>
