@@ -1,4 +1,4 @@
-# GhibliPedia
+# GhibliPedia 🎞📽
 
 ## Índice
 
@@ -32,7 +32,7 @@ Entre la información más relevante están los directores y productores, año d
 
 ## 3. Prototipos de alta fidelidad
 
-![Prototipo HOME](./src/assets/prototipo-alta-fidelidad1.png)
+![Prototipo-HOME](./src/assets/datalovers.png)
 ![Prototipo FILMS](./src/assets/prototipo-alta-fidelidad2.png)
 ![Prototipo FILMOGRAPHY](./src/assets/prototipo-alta-fidelidad3.png)
 ![Prototipo CHARACTERS](./src/assets/prototipo-alta-fidelidad4.png)
